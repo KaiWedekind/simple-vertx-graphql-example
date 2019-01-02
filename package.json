@@ -1,0 +1,31 @@
+{
+  "name": "simple-vertx-graphql-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "es4x exec test",
+    "postinstall": "es4x postinstall",
+    "start": "es4x exec run",
+    "package": "es4x package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiWedekind/simple-vertx-graphql-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaiWedekind/simple-vertx-graphql-example/issues"
+  },
+  "homepage": "https://github.com/KaiWedekind/simple-vertx-graphql-example#readme",
+  "devDependencies": {
+    "@vertx/unit": "^3.6.2",
+    "es4x-cli": "^0.1.1"
+  },
+  "dependencies": {
+    "@vertx/core": "^3.6.2",
+    "@vertx/web": "^3.6.2",
+    "vertx-graphql": "^1.0.8"
+  }
+}
